@@ -6,12 +6,14 @@ import Pharmacie from './components/Pharmacie';
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Routes, Route } from 'react-router-dom';
+import Accordion from './components/accordion/Accordion';
 
 
 const App = () => {
   return (
     <div>
       <Navbar />
+      <Accordion />
       <Routes>
         <Route path='/' element={<Menu />} />
         <Route path='/medicament' element={<Medicament />} />

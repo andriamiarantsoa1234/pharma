@@ -12,3 +12,22 @@
 .text-white {
     text-decoration: none;
 }
+
+figcaption {
+    position: absolute;
+    bottom: 100px;
+    margin: auto 100px;
+    color: antiquewhite;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    figcaption {
+        position: inherit;
+        bottom: inherit;
+        margin: .25rem 0px;
+        font-size: inherit;
+        color: inherit;
+    }
+}
